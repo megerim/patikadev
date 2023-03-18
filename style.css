@@ -1,0 +1,57 @@
+nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.yazi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+hr{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 10px;
+    display: flex;
+}
+
+.lorem{
+    padding: 30px;
+}
+
+.buton{
+    margin-left: 50%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buton:hover{
+    background-color: #6aee6f;
+}
+
+.active{
+    text-decoration: underline;
+}
